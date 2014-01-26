@@ -26,7 +26,7 @@ class Member {
 
 function getAllMembers() {
 
-	$members = []
+	$members = array();
 
 	$query = "SELECT `memberNumber` FROM `member`";
 
