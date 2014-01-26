@@ -1,0 +1,39 @@
+<?php
+
+/**
+ * balcony - Online Portal for Hackerspaces
+ *
+ * Copyright (c) 2014, Iain R. Learmonth and contributors.
+ * All rights reserved.
+ *
+ * See LICENSE for details of redistribution terms and disclaimer.
+ */
+
+$settings = array();
+
+$settings['db'] = array();
+$settings['db']['host'] = "localhost";
+$settings['db']['user'] = "balconyuser";
+$settings['db']['pass'] = "balconypass";
+$settings['db']['name'] = "balconydb";
+
+$settings['site']['url'] = "http://hackerspace.example/balcony";
+$settings['site']['admin'] = "admin@hackerspace.example";
+
+$settings['space']['name'] = "ExampleSpace";
+$settings['space']['url'] = "http://hackerspace.example";
+$settings['space']['location']['lat'] = "0"; // Decimal degrees north
+$settings['space']['location']['lon'] = "0"; // Decimal degrees east
+$settings['space']['streetAddress'] = "123 High Street";
+$settings['space']['locality'] = "Imaginary Locality";
+$settings['space']['region'] = "Imaginary Region";
+$settings['space']['postalCode'] = "AA11 1AA";
+$settings['space']['countryName'] = "Imaginary Country";
+$settings['space']['ml'] = "mailinglist@hackerspace.example";
+$settings['space']['twitter'] = "ExampleHackerspace";
+$settings['space']['irc'] = "irc://irc.freenode.net/#57N";
+$settings['space']['phone'] = "tel:+447123456789";
+$settings['space']['logo'] = "http://hackerspace.example/logo.png";
+$settings['space']['icon']['open'] = "http://hackerspace.example/open.png";
+$settings['space']['icon']['closed'] = "http://hackerspace.example/closed.png";
+
