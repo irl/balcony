@@ -1,11 +1,11 @@
--- phpMyAdmin SQL Dump
--- version 3.3.7deb7
--- http://www.phpmyadmin.net
 --
--- Host: localhost
--- Generation Time: Jan 26, 2014 at 04:59 PM
--- Server version: 5.1.66
--- PHP Version: 5.3.3-7+squeeze18
+-- balcony - Online Portal for Hackerspaces
+--
+-- Copyright (c) 2014, Iain R. Learmonth and contributors.
+-- All rights reserved.
+--
+-- See LICENSE for details of redistribution terms and disclaimer.
+--
 
 SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 
