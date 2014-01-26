@@ -32,7 +32,7 @@ function getAllMembers() {
 
 	$result = mysql_query($query);
 
-	while ( ( $row = mysql_fetch_array($result) != null ) {
+	while ( ( $row = mysql_fetch_array($result) ) != null ) {
 
 		$members[] = new Member($row[0]);
 
