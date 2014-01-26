@@ -13,7 +13,7 @@ class Member {
 
 	function __construct($memberNumber) {
 
-		snprintf($query, "SELECT * FROM `member` WHERE `memberNumber` = '%d'",
+		$query = sprintf("SELECT * FROM `member` WHERE `memberNumber` = '%d'",
 			mysql_real_escape_string($memberNumber));
 
 		$result = mysql_query($query);
